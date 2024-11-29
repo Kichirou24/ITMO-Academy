@@ -1,6 +1,6 @@
 ## ITMO Academy: pilot course
 
-- Suffix Array - 5/11
+- Suffix Array - 7/11
 
 - Segment Tree, part 1 - 7/17
 
@@ -12,4 +12,4 @@
 
 - Two Pointers Method - 0/19
 
-- All - 34/105
+- All - 36/105

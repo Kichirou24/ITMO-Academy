@@ -1,8 +1,8 @@
 ## ITMO Academy: pilot course
 
-- Suffix Array - 2/11
+- Suffix Array - 5/11
 
-- Segment Tree, part 1 - 2/17
+- Segment Tree, part 1 - 7/17
 
 - Segment Tree, part 2 - 0/18
 
@@ -11,3 +11,5 @@
 - Disjoint Sets Union - 0/18
 
 - Two Pointers Method - 0/19
+
+- All - 34/105

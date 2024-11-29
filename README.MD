@@ -2,7 +2,7 @@
 
 - Suffix Array - 7/11
 
-- Segment Tree, part 1 - 7/17
+- Segment Tree, part 1 - 8/17
 
 - Segment Tree, part 2 - 0/18
 
@@ -12,4 +12,4 @@
 
 - Two Pointers Method - 0/19
 
-- All - 36/105
+- All - 37/105

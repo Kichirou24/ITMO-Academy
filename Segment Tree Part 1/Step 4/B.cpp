@@ -114,22 +114,18 @@ void Solve()
     vector<Matrix> a(n);
 
     for (int i = 0; i < n; ++i)
-        scanf("%lld %lld %lld %lld", &a[i].a, &a[i].b, &a[i].c, &a[i].d);
-
-    for (int i = 0; i < n; ++i)
-        printf("%d %d\n%d %d\n\n", a[i].a, a[i].b, a[i].c, a[i].d);
+        cin >> a[i].a >> a[i].b >> a[i].c >> a[i].d;
 
     SegmentTree st;
     st.init(a);
 
-    // st.show();
-
-    while (m--)
+    while(m--)
     {
         int L, R;
         cin >> L >> R;
+
         Matrix res = st.get(L - 1, R);
-        printf("%d %d\n%d %d\n\n", res.a, res.b, res.c, res.d);
+        cout << res.a << " " << res.b << "\n" << res.c << " " << res.d << "\n\n";
     }
 }
 

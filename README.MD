@@ -10,6 +10,6 @@
 
 - Disjoint Sets Union - 0/18
 
-- Two Pointers Method - 0/19
+- Two Pointers Method - 3/19
 
-- All - 46/105
+- All - 49/105

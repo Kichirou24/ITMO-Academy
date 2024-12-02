@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define taskname "C"
+#define taskname "D"
 
 int nTest = 1;
 
@@ -47,14 +47,11 @@ void Solve()
     for (int j = 0; j < n; ++j)
     {
         sum += a[j];
-
-        while (sum > s)
-        {
-            sum -= a[i];
-            ++i;
-        }
-
-        res += j - i + 1;
+        while (sum - a[i] >= s)
+            sum -= a[i++];
+        
+        if (sum >= s)
+            res += (i + 1);
     }
 
     ce1(res)
